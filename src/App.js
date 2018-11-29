@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <Provider>
-      <Router>
-      <React.Fragment>
+        <Router>
+          <React.Fragment>
         <Navbar />
       <div className="container">
       <Switch>
@@ -22,8 +22,8 @@ class App extends Component {
           <Route exact path="/lyrics/track/:id" component={Lyrics} />
       </Switch>
       </div>
-      </React.Fragment>
-      </Router>
+           </React.Fragment>
+        </Router>
       </Provider>
     );
   }
