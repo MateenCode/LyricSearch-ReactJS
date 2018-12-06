@@ -1,4 +1,4 @@
-## Apex Charting
+## Lyric Search
 
 An app that can be used to search song lyrics using Reacts built in context API along with the Musixmatch public API.
 
